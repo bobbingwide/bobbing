@@ -4,12 +4,12 @@ Plugin Name: bobbing
 Depends: oik base plugin
 Plugin URI: http://www.oik-plugins.com/bobbing
 Description: a sample plugin that's dependent upon oik and bbboing
-Version: 1.2
+Version: 1.2.1
 Author: bobbingwide
 Author URI: http://www.bobbingwide.com
 License: GPL2
 
-    Copyright 2012,2013 Bobbing Wide (email : herb@bobbingwide.com )
+    Copyright 2012-2015 Bobbing Wide (email : herb@bobbingwide.com )
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License version 2,
@@ -54,9 +54,10 @@ function bobbing_init( ) {
 /**
  * Dependency checking for bobbing
  *
- * bobbing is now dependent upon oik version 2.0 or higher and uses the new oik-activation code
  * 
  * bobbing version 1.2 was dependent upon oik version 1.11
+ * bobbing v1.2 is now dependent upon oik version 2.0 or higher and uses the new oik-activation code
+ * bobbing v1.2.1 is now dependent upon oik version 3.0.0-alpha
  * 
  */ 
 function bobbing_activation() {
@@ -71,7 +72,7 @@ function bobbing_activation() {
 			//echo "opla already active" ;
 		}
   }  
-  $depends = "oik:2.1-alpha,bbboing";
+  $depends = "oik:3.0.0-alpha,bbboing";
   //bw_backtrace();
 	//echo "calling opla with $depends";
   oik_plugin_lazy_activation( __FILE__, $depends, "oik_plugin_plugin_inactive" );
