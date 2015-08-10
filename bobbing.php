@@ -26,6 +26,9 @@ License: GPL2
     http://www.gnu.org/licenses/gpl-2.0.html
 
 */
+class bobbing {
+  function uppity() {}
+}
 
 /**
  * Increment the number
@@ -60,11 +63,17 @@ function bobbing_activation() {
   static $plugin_basename = null;
   if ( !$plugin_basename ) {
     $plugin_basename = plugin_basename(__FILE__);
-    add_action( "after_plugin_row_${plugin_basename}", __FUNCTION__ );   
-    require_once( "admin/oik-activation.php" );
+    add_action( "after_plugin_row_bobbing/bobbing.php", "bobbing_activation" ); 
+		  
+    if ( !function_exists( "oik_plugin_lazy_activation" ) ) { 
+			require_once( "admin/oik-activation.php" );
+		} else {
+			//echo "opla already active" ;
+		}
   }  
   $depends = "oik:2.1-alpha,bbboing";
-  bw_backtrace();
+  //bw_backtrace();
+	//echo "calling opla with $depends";
   oik_plugin_lazy_activation( __FILE__, $depends, "oik_plugin_plugin_inactive" );
 }
 
@@ -84,12 +93,21 @@ function bobbing_admin_menu() {
 }
 
 /**
+ * Implement "rightnow_end" action for bobbing 
+ */ 
+function bobbing_rightnow_end() {
+  e( "Bobbing right now" );
+  bw_flush();
+} 
+
+/**
  * Function to invoke when bobbing is loaded 
  */
 function bobbing_loaded() {
   add_action( "oik_loaded", "bobbing_init" );
   add_action( "admin_notices", "bobbing_activation" );
   add_action( "oik_admin_menu", "bobbing_admin_menu" );
+  add_action( "rightnow_end", "bobbing_rightnow_end" );
 }
 
 bobbing_loaded();  

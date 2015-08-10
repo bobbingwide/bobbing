@@ -1,0 +1,14 @@
+{
+    "name": "bobbingwide/bobbing",
+    "description": "sample plugin dependent upon oik and bbboing",
+    "type": "wordpress-plugin",
+    "require": {
+    },
+    "license": "GPL2.0+",
+    "authors": [
+        {
+            "name": "Herb Miller",
+            "email": "herb@bobbingwide.com"
+        }
+    ]
+}
