@@ -1,0 +1,56 @@
+# Copyright (C) 2015 bobbing
+# This file is distributed under the same license as the bobbing package.
+msgid ""
+msgstr ""
+"Project-Id-Version: bobbing 1.2.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/bobbing\n"
+"POT-Creation-Date: 2015-08-10 17:25:19+00:00\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"Language: fr_FR\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+#: admin/oik-activation.php:17
+msgid "Install"
+msgstr "Installer"
+
+#: admin/oik-activation.php:45
+msgid "Activate"
+msgstr "Activer"
+
+#: admin/oik-activation.php:67
+msgid " Upgrade"
+msgstr ""
+
+#: admin/oik-activation.php:180
+msgid "%1$s may not be fully functional."
+msgstr ""
+
+#: admin/oik-activation.php:182
+msgid ""
+"Please install and activate the required minimum version of this plugin:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "bobbing"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.oik-plugins.com/bobbing"
+msgstr "http://www.oik-plugins.com/bobbing"
+
+#. Description of the plugin/theme
+msgid "a sample plugin that's dependent upon oik and bbboing"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "bobbingwide"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.bobbingwide.com"
+msgstr "http://www.bobbingwide.com"
+
