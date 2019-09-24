@@ -1,10 +1,11 @@
 # bobbing 
+![banner](https://raw.githubusercontent.com/bobbingwide/bobbing/master/assets/bobbing-banner-772x250.jpg)
 * Contributors: bobbingwide
-* Donate link: http://www.oik-plugins.com/oik/oik-donate/
+* Donate link: https://www.oik-plugins.com/oik/oik-donate/
 * Tags: example, oik, APIs,
 * Requires at least: 4.2
 * Tested up to: 4.3-RC1
-* Stable tag: 1.2.1
+* Stable tag: 1.2.2
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 * Text Domain: bobbing
@@ -36,6 +37,9 @@ The first stage is to have a plugin that contains a composer.json file in the fi
 1. bobbing in action
 
 ## Upgrade Notice 
+# 1.2.2 
+Version for bobbingwide.com/phphants - copied from rowlandscastlewebdesign.com/phphants
+
 # 1.2.1 
 Added composer.json to enable some testing with Composer, Packagist etcetera
 
@@ -44,6 +48,9 @@ Added composer.json to enable some testing with Composer, Packagist etcetera
 This version is a standalone version of the plugin that was previously delivered in bbboing.
 
 ## Changelog 
+# 1.2.2 
+* Tested: With PHP 7.3
+
 # 1.2.1 
 * Changed: Now dependent upon oik v3.0.0-alpha
 * Added: composer.json
@@ -57,6 +64,6 @@ This version is a standalone version of the plugin that was previously delivered
 
 ## Further reading 
 If you want to read more about the oik plugins then please visit the
-[oik plugin](http://www.oik-plugins.com/oik)
+[oik plugin](https://www.oik-plugins.com/oik)
 **"the oik plugin - for often included key-information"**
 

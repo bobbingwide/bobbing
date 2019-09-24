@@ -2,9 +2,9 @@
 /**
 Plugin Name: bobbing
 Depends: oik base plugin
-Plugin URI: http://www.oik-plugins.com/bobbing
+Plugin URI: https://www.oik-plugins.com/bobbing
 Description: a sample plugin that's dependent upon oik and bbboing
-Version: 1.2.1
+Version: 1.2.2
 Author: bobbingwide
 Author URI: http://www.bobbingwide.com
 License: GPL2
